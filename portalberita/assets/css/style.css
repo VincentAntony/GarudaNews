@@ -1,0 +1,52 @@
+.social-share .btn {
+    margin-right: 10px;
+}
+
+.social-share .btn i {
+    margin-right: 5px;
+}
+
+.gap-2 {
+    gap: 0.5rem;
+}
+
+/* Footer Styles */
+footer {
+    margin-top: auto;
+}
+
+footer a {
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #007bff !important;
+}
+
+footer .me-2 {
+    margin-right: 0.5rem;
+}
+
+footer .me-3 {
+    margin-right: 1rem;
+}
+
+footer .list-unstyled li {
+    margin-bottom: 0.5rem;
+}
+
+footer .social-icons a:hover {
+    opacity: 0.8;
+}
+
+/* Ensure footer stays at bottom */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+}
